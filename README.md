@@ -100,6 +100,10 @@ Serv00专用一键脚本 (默认自动安装进程保活)：
 ```
 bash <(curl -Ls https://raw.githubusercontent.com/yonggekkk/Cloudflare_vless_trojan/main/serv00_proxyip.sh)
 ```
+```
+bash <(curl -Ls https://raw.githubusercontent.com/yfqingmu/Cloudflare_vless_trojan/refs/heads/main/serv00_proxyip.sh)
+```
+
 脚本界面预览图：
 
 ![1a215abda2dd54d1042e8d3e61979b1](https://github.com/user-attachments/assets/cc28a80b-7cee-41b8-98c1-1d64cb0b1013)
