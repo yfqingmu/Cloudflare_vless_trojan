@@ -190,9 +190,9 @@ EOF
 download_and_run_singbox() {
   ARCH=$(uname -m) && DOWNLOAD_DIR="." && mkdir -p "$DOWNLOAD_DIR" && FILE_INFO=()
   if [ "$ARCH" == "arm" ] || [ "$ARCH" == "arm64" ] || [ "$ARCH" == "aarch64" ]; then
-      FILE_INFO=("https://github.com/eooce/test/releases/download/arm64/sb web" "https://github.com/eooce/test/releases/download/arm64/bot13 bot")
+      FILE_INFO=("https://github.com/yfqingmu/Cloudflare_vless_trojan/releases/download/serv00/sb_eooce web" "https://github.com/yfqingmu/Cloudflare_vless_trojan/releases/download/serv00/bot13 bot")
   elif [ "$ARCH" == "amd64" ] || [ "$ARCH" == "x86_64" ] || [ "$ARCH" == "x86" ]; then
-      FILE_INFO=("https://github.com/yonggekkk/Cloudflare_vless_trojan/releases/download/serv00/sb web" "https://github.com/yonggekkk/Cloudflare_vless_trojan/releases/download/serv00/server bot")
+      FILE_INFO=("https://github.com/yfqingmu/Cloudflare_vless_trojan/releases/download/serv00/sb web" "https://github.com/yfqingmu/Cloudflare_vless_trojan/releases/download/serv00/server bot")
   else
       echo "Unsupported architecture: $ARCH"
       exit 1
